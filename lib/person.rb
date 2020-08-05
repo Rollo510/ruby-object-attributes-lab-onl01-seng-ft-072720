@@ -1,9 +1,9 @@
 class Person
-  def initialize(name)
-    @name = name
+  def name=(full_name)
+    @person_name = full_name
   end
   
   def name
-    @name
+    @person_name
   end
 end
